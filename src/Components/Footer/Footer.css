@@ -1,0 +1,49 @@
+footer {
+    background-color: var(--main-color);
+    padding: 40px;
+}
+.footer {
+    margin: auto;
+    max-width: var(--max-width);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    color:#000;
+    
+}
+.footer ul li {
+    margin: 10px 0;
+}
+.footer ul h2 {
+    margin: 20px 0;
+    font-weight: bold;
+}
+.footer .contact {
+    width: 280px;
+}
+.footer .contact .sub {
+    display: flex;
+}
+.footer .contact .sub button {
+    background-color: var(--secondary-color);
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 0 7px 7px 0;
+    padding: 10px;
+}
+.sub{
+    margin-top: 1rem;
+}
+.footer .contact .sub input {
+    border-radius: 7px 0 0 7px;
+    border: none;
+    padding: 0 10px;
+    outline: none;
+}

@@ -1,0 +1,21 @@
+.review_container {
+  padding: 20px 40px 50px;
+  background-color: var(--main-color);
+}
+.review {
+  max-width: var(--max-width);
+  margin: auto;
+}
+.top {
+    text-align: center;
+    max-width: 700px;
+    margin: 50px auto;
+}
+.top p {
+    margin: 20px 0;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+}

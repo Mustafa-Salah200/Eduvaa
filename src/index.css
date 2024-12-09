@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root {
+    --main-color: #009688;
+    --secondary-color:#ecc901;
+    --max-width: 1000px;
+}
+.bg-m {
+    background-color: var(--main-color);
+}
+.primary_btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    background-color: #ffd15c;
+    font-size: 20px;
+}
+.primary_btn:hover {
+    background-color: var(--secondary-color);
+
+}

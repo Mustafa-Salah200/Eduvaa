@@ -1,0 +1,78 @@
+.courses {
+    margin: auto;
+    max-width: var(--max-width);
+    padding: 40px;
+}
+.courses .top {
+    margin-top: 100px;
+    text-align: center;
+}
+.courses .top .top_list {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.courses .top .top_list h2 {
+    margin: 5px;
+}
+.courses .courses_box {
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.courses .box{
+    overflow: hidden;
+    width: 293px;
+    border: none;
+    border-radius: 6px;
+    padding: 16px;
+    box-shadow: 0 0 1px 1px #7777;
+    margin: 5px;
+}
+.courses .box .cover{
+    height: 250px;
+    border-radius: .5rem;
+}
+.courses .cover img{
+    width: 100%;
+    height: 100%;
+    border-radius: .5rem;
+}
+.courses .des{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #9494947d;
+    padding: .5rem 0;
+    margin: 10px 0 ;
+}
+.courses .des h3 {
+    font-size: 20px;
+}
+.courses .profile{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.profile-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.courses .info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.courses .stars {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
